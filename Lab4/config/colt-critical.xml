@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <!-- Десять типов предупреждений, подробно разобранных в готовом отчёте. -->
+    <Match>
+        <Or>
+            <Bug pattern="RV_EXCEPTION_NOT_THROWN"/>
+            <Bug pattern="DLS_DEAD_LOCAL_INCREMENT_IN_RETURN"/>
+            <Bug pattern="RpC_REPEATED_CONDITIONAL_TEST"/>
+            <Bug pattern="DMI_RANDOM_USED_ONLY_ONCE"/>
+            <Bug pattern="HE_EQUALS_USE_HASHCODE"/>
+            <Bug pattern="DM_DEFAULT_ENCODING"/>
+            <Bug pattern="MS_SHOULD_BE_FINAL"/>
+            <Bug pattern="DM_BOXED_PRIMITIVE_FOR_PARSING"/>
+            <Bug pattern="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT"/>
+            <Bug pattern="DLS_DEAD_LOCAL_STORE"/>
+        </Or>
+    </Match>
+</FindBugsFilter>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <Match>
+        <Package name="ru.fteam.examples.buggy"/>
+        <Or>
+            <Bug pattern="BX_BOXING_IMMEDIATELY_UNBOXED"/>
+            <Bug pattern="BX_UNBOXED_AND_COERCED_FOR_TERNARY_OPERATOR"/>
+            <Bug pattern="BX_UNBOXING_IMMEDIATELY_REBOXED"/>
+            <Bug pattern="DM_NUMBER_CTOR"/>
+            <Bug pattern="NP_NULL_ON_SOME_PATH"/>
+            <Bug pattern="STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE"/>
+            <Bug pattern="DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE"/>
+            <Bug pattern="MDM_BIGDECIMAL_EQUALS"/>
+            <Bug pattern="VA_FORMAT_STRING_USES_NEWLINE"/>
+        </Or>
+    </Match>
+</FindBugsFilter>

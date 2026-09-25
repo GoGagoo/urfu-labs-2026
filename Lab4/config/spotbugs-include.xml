@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <!-- В отчёт входят только намеренно проблемные листинги и исходный library. -->
+    <Match>
+        <Class name="~(ru\.fteam\.examples\.buggy\..*|bookstore\.(Book|Library)(\$.*)?)"/>
+    </Match>
+</FindBugsFilter>

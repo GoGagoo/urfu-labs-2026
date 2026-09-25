@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <Match>
+        <Class name="~bookstore\.(Book|Library)(\$.*)?"/>
+        <Or>
+            <Bug pattern="NP_NONNULL_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR"/>
+            <Bug pattern="NP_NONNULL_RETURN_VIOLATION"/>
+            <Bug pattern="DLS_DEAD_LOCAL_STORE"/>
+        </Or>
+    </Match>
+</FindBugsFilter>

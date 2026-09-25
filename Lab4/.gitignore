@@ -1,0 +1,7 @@
+/target/
+/.tools/
+/reports/*.html
+/reports/*.xml
+/.idea/
+.DS_Store
+*.iml

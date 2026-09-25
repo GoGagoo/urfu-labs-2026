@@ -1,0 +1,8 @@
+C:\Users\Ник\source\repos\PISLab3\bin\Debug\PISLab3.exe.config
+C:\Users\Ник\source\repos\PISLab3\bin\Debug\PISLab3.exe
+C:\Users\Ник\source\repos\PISLab3\bin\Debug\PISLab3.pdb
+C:\Users\Ник\source\repos\PISLab3\obj\Debug\PISLab3.csproj.AssemblyReference.cache
+C:\Users\Ник\source\repos\PISLab3\obj\Debug\PISLab3.csproj.CoreCompileInputs.cache
+C:\Users\Ник\source\repos\PISLab3\obj\Debug\PISLab3.exe
+C:\Users\Ник\source\repos\PISLab3\obj\Debug\PISLab3.pdb
+C:\Users\Ник\source\repos\PISLab3\obj\Debug\PISLab3.exe.config
